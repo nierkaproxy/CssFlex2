@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 10%;
+    background-color: rgb(243, 149, 238);
+    border: 5px solid rgb(180, 177, 177);
+}
+
+.container{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 3px solid rgb(180, 177, 177);
+}
+
+.article{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    border: 3px solid rgb(180, 177, 177);
+}
+
+.related{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(243, 149, 238);
+    border: 3px solid rgb(180, 177, 177);
+}
+
+footer{
+    height: 10%;
+    background-color: white;
+    border: 5px solid rgb(180, 177, 177);
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-ul, .ul-class{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.search-input{
+    height: 30px;
+    width: 250px;
+}
+
+.search-button{
+    height: 30px;
+    width: 70px;
+    color: white;
+    background-color: black;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 1.6em;
+    padding: 10px;
+}
+
+p {
+    font-size: larger;
+    padding: 10px;
+}
+
+.related-ul, .related{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
