@@ -55,18 +55,17 @@ footer{
     display: flex;
     align-items: center;
     list-style-type: none;
-    justify-content: flex-start;
-    gap: 100px;
+    justify-content: space-around;
 }
 
 .search-input{
     height: 30px;
-    width: 250px;
+    width: 300px;
 }
 
 .search-button{
     height: 30px;
-    width: 70px;
+    width: 100px;
     color: white;
     background-color: black;
 }
@@ -95,3 +94,8 @@ p {
     flex-direction: column;
     row-gap: 40px;
 }
+
+.ul-class{
+    width: 55%;
+}
+
